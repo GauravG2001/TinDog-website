@@ -1,0 +1,144 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "montserrat-bold";
+}
+p {
+  color: #8f8f8f;
+  width: 50%;
+  margin-left: 120px;
+margin: auto;
+padding-bottom: 10px
+}
+/* sections */
+.padding-common{
+  padding: 100px 100px;
+}
+.reddish-colors{
+  background-color: #ef8172;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+/* title */
+#title{
+  text-align: left;
+}
+.title-heading{
+  padding: 50px 0;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.title-img {
+  width: 250px;
+  transform: rotate(25deg);
+  margin: 0 0 0 150px;
+
+}
+
+#features{
+
+  position: relative;
+  z-index: 1;
+}
+
+
+.features-img{
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+.features-img:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+#testimonials{
+  color: #fff;
+}
+.testimonial-image{
+  width: 8rem;
+  border-radius: 10rem;
+  margin: 20px;
+}
+
+/* press */
+.press-img{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  }
+.pricing-paragraph{
+  margin: auto;
+}
+.card-head{
+  margin: auto;
+}
+.amount-card{
+  margin: auto;
+}
+.pricing-testimonials-heading2{
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 50px;
+  width: 60%;
+  margin-left: 250px;
+}
+.pricing-heading3{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+@media (max-width:1021px) {
+  .title-img{
+    position: static;
+    transform: rotate(0deg);
+    padding: 30px 30px;
+  }
+
+}
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  padding: 8rem 8rem;
+  font-family: "Montserrat Black"
+}
+.cta-heading{
+  color: #fff;
+  font-size: 4rem;
+margin: auto;
+width: 80%;
+}
+.cta-btn{
+  margin: 50px 20px;
+}
+/* footer */
+.footer-para{
+  font-size: 20px;
+}
+.fa{
+  font-size: 20px;
+    padding: 5px;
+}
